@@ -1,0 +1,41 @@
+Exam 5.1 grade report for bdjiang2:
+
+REGULAR TESTS (70%):
+TEST 0: ERROR
+	Exception occurred at PC=0x004000d4
+	  Bad address in data/stack read: 0x100200ab
+TEST 1: ERROR
+	Exception occurred at PC=0x004000d4
+	  Bad address in data/stack read: 0x100200d7
+TEST 2: ERROR
+	Exception occurred at PC=0x004000d4
+	  Bad address in data/stack read: 0x10020115
+TEST 3: ERROR
+	Exception occurred at PC=0x004000d4
+	  Bad address in data/stack read: 0x10020147
+TEST 4: ERROR
+	Exception occurred at PC=0x004000d4
+	  Bad address in data/stack read: 0x10020167
+
+SCORE: 0.00%
+
+EVIL TESTS (30%):
+TEST 0: ERROR
+	Exception occurred at PC=0x004001c8
+	  Bad address in data/stack read: 0xdeadbef1
+TEST 1: ERROR
+	Exception occurred at PC=0x004001c8
+	  Bad address in data/stack read: 0xdeadbef1
+TEST 2: ERROR
+	Exception occurred at PC=0x004001c8
+	  Bad address in data/stack read: 0xdeadbef1
+TEST 3: ERROR
+	Exception occurred at PC=0x004001c8
+	  Bad address in data/stack read: 0xdeadbef1
+TEST 4: ERROR
+	Exception occurred at PC=0x004001c8
+	  Bad address in data/stack read: 0xdeadbef1
+
+SCORE: 0.00%
+
+FINAL SCORE: 0.00%

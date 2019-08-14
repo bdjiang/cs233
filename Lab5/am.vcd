@@ -1,0 +1,462 @@
+$date
+	Tue Sep 26 21:24:58 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module arith_machine_test $end
+$var wire 1 ! except $end
+$var reg 1 " clock $end
+$var reg 1 # done $end
+$var integer 32 $ i [31:0] $end
+$var reg 1 % reset $end
+$scope module am $end
+$var wire 1 & clock $end
+$var wire 1 ! except $end
+$var wire 1 ' reset $end
+$scope module PC_reg $end
+$var wire 1 ( clock $end
+$var wire 32 ) d [31:0] $end
+$var wire 1 * enable $end
+$var wire 1 + reset $end
+$var reg 32 , q [31:0] $end
+$upscope $end
+$scope module im $end
+$var wire 30 - addr [29:0] $end
+$var wire 32 . data [31:0] $end
+$var reg 32 / i [31:0] $end
+$upscope $end
+$scope module rf $end
+$var wire 1 0 clock $end
+$var wire 32 1 rdData [31:0] $end
+$var wire 5 2 rdNum [4:0] $end
+$var wire 1 3 rdWriteEnable $end
+$var wire 1 4 reset $end
+$var wire 32 5 rsData [31:0] $end
+$var wire 5 6 rsNum [4:0] $end
+$var wire 32 7 rtData [31:0] $end
+$var wire 5 8 rtNum [4:0] $end
+$var integer 32 9 i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 : \r[0] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 ; \r[1] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 < \r[2] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 = \r[3] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 > \r[4] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 ? \r[5] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 @ \r[6] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 A \r[7] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 B \r[8] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 C \r[9] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 D \r[10] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 E \r[11] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 F \r[12] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 G \r[13] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 H \r[14] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 I \r[15] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 J \r[16] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 K \r[17] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 L \r[18] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 M \r[19] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 N \r[20] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 O \r[21] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 P \r[22] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 Q \r[23] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 R \r[24] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 S \r[25] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 T \r[26] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 U \r[27] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 V \r[28] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 W \r[29] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 X \r[30] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module arith_machine_test $end
+$scope module am $end
+$scope module rf $end
+$var reg 32 Y \r[31] [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx Y
+bx X
+bx W
+bx V
+bx U
+bx T
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bz 8
+bx 7
+bz 6
+bx 5
+z4
+z3
+bz 2
+bz 1
+z0
+b100000000 /
+bx .
+bz -
+bx ,
+z+
+z*
+bz )
+z(
+1'
+0&
+1%
+b100000 $
+0#
+0"
+z!
+$end
+#3
+0%
+0'
+#5
+1"
+1&
+#10
+0"
+0&
+#15
+1"
+1&
+#20
+0"
+0&
+#25
+1"
+1&
+#30
+0"
+0&
+#35
+1"
+1&
+#40
+0"
+0&
+#45
+1"
+1&
+#50
+0"
+0&
+#55
+1"
+1&
+#60
+0"
+0&
+#65
+1"
+1&
+#70
+0"
+0&
+#75
+1"
+1&
+#80
+0"
+0&
+#85
+1"
+1&
+#90
+0"
+0&
+#95
+1"
+1&
+#100
+0"
+0&
+#105
+1"
+1&
+#110
+0"
+0&
+#115
+1"
+1&
+#120
+0"
+0&
+#125
+1"
+1&
+#130
+0"
+0&
+#135
+1"
+1&
+#140
+0"
+0&
+#145
+1"
+1&
+#150
+0"
+0&
+#155
+1"
+1&
+#160
+0"
+0&
+#165
+1"
+1&
+#170
+0"
+0&
+#175
+1"
+1&
+#180
+0"
+0&
+#185
+1"
+1&
+#190
+0"
+0&
+#195
+1"
+1&
+#200
+0"
+0&
+#203
+1#
+#205
+1"
+1&
+#210
+b100000 $
+0"
+0&

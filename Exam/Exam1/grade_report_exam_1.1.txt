@@ -1,0 +1,16 @@
+Passed test: 1
+Your output: inputs = 00  0  outputs = 0000   time =  0
+Passed test: 2
+Your output: inputs = 00  1  outputs = 0001   time = 10
+Passed test: 3
+Your output: inputs = 01  0  outputs = 0000   time = 20
+Failed test: 4
+Your output: inputs = 01  1  outputs = 0000   time = 30
+Passed test: 5
+Your output: inputs = 10  0  outputs = 0000   time = 40
+Failed test: 6
+Your output: inputs = 10  1  outputs = 0000   time = 50
+Passed test: 7
+Your output: inputs = 11  0  outputs = 0000   time = 60
+Passed test: 8
+Your output: inputs = 11  1  outputs = 1000   time = 70

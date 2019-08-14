@@ -1,0 +1,32 @@
+Grades for version committed on time
+	decoder: 5.71 / 20
+			*Passed test: invalid (opcode = 20 funct = 20)
+			*Failed test: add (opcode = 00 funct = 20)
+				*Your output: alu_op = 010 rd_src = z alu_src2 = z writeenable = 1 except = 0
+			*Failed test: addi (opcode = 08 funct = 20)
+				*Your output: alu_op = 010 rd_src = z alu_src2 = z writeenable = 1 except = 0
+			*Failed test: sub (opcode = 00 funct = 22)
+				*Your output: alu_op = 011 rd_src = z alu_src2 = z writeenable = 1 except = 0
+			*Passed test: invalid (opcode = 22 funct = 22)
+			*Failed test: and (opcode = 00 funct = 24)
+				*Your output: alu_op = 100 rd_src = z alu_src2 = z writeenable = 1 except = 0
+			*Passed test: invalid (opcode = 24 funct = 24)
+			*Failed test: andi (opcode = 0c funct = 24)
+				*Your output: alu_op = 100 rd_src = z alu_src2 = z writeenable = 1 except = 0
+			*Failed test: or (opcode = 00 funct = 25)
+				*Your output: alu_op = 101 rd_src = z alu_src2 = z writeenable = 1 except = 0
+			*Failed test: ori (opcode = 0d funct = 25)
+				*Your output: alu_op = 101 rd_src = z alu_src2 = z writeenable = 1 except = 0
+			*Passed test: invalid (opcode = 25 funct = 25)
+			*Failed test: nor (opcode = 00 funct = 27)
+				*Your output: alu_op = 110 rd_src = z alu_src2 = z writeenable = 1 except = 0
+			*Passed test: invalid (opcode = 27 funct = 27)
+			*Failed test: xor (opcode = 00 funct = 26)
+				*Your output: alu_op = 111 rd_src = z alu_src2 = z writeenable = 1 except = 0
+			*Passed test: invalid (opcode = 26 funct = 26)
+			*Failed test: xori (opcode = 0e funct = 26)
+				*Your output: alu_op = 111 rd_src = z alu_src2 = z writeenable = 1 except = 0
+		
+Total: 5.71 / 20
+
+Final Score: 5.71 / 20

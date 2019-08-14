@@ -1,0 +1,210 @@
+#! /usr/bin/vvp
+:ivl_version "0.9.6 " "(v0_9_6)";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x1362fd0 .scope module, "logicunit_test" "logicunit_test" 2 1;
+ .timescale 0 0;
+v0x1398d80_0 .var "A", 0 0;
+v0x1398e00_0 .var "B", 0 0;
+v0x1398e80_0 .var "control", 1 0;
+v0x1398f50_0 .net "out", 0 0, L_0x1399d00; 1 drivers
+S_0x1362180 .scope module, "lu" "logicunit" 2 39, 3 2, S_0x1362fd0;
+ .timescale 0 0;
+L_0x1398fd0 .functor AND 1, v0x1398d80_0, v0x1398e00_0, C4<1>, C4<1>;
+L_0x13990d0 .functor OR 1, v0x1398d80_0, v0x1398e00_0, C4<0>, C4<0>;
+L_0x1399130 .functor NOR 1, v0x1398d80_0, v0x1398e00_0, C4<0>, C4<0>;
+L_0x13992b0 .functor XOR 1, v0x1398d80_0, v0x1398e00_0, C4<0>, C4<0>;
+v0x13987a0_0 .net "A", 0 0, v0x1398d80_0; 1 drivers
+v0x1398820_0 .net "B", 0 0, v0x1398e00_0; 1 drivers
+v0x13988a0_0 .net "control", 1 0, v0x1398e80_0; 1 drivers
+v0x1398920_0 .alias "out", 0 0, v0x1398f50_0;
+v0x13989f0_0 .net "w1", 0 0, L_0x1398fd0; 1 drivers
+v0x1398ac0_0 .net "w2", 0 0, L_0x13990d0; 1 drivers
+v0x1398b90_0 .net "w3", 0 0, L_0x1399130; 1 drivers
+v0x1398c60_0 .net "w4", 0 0, L_0x13992b0; 1 drivers
+S_0x1374040 .scope module, "m1" "mux4" 3 13, 4 16, S_0x1362180;
+ .timescale 0 0;
+v0x1398190_0 .alias "A", 0 0, v0x13989f0_0;
+v0x1398230_0 .alias "B", 0 0, v0x1398ac0_0;
+v0x13982e0_0 .alias "C", 0 0, v0x1398b90_0;
+v0x1398390_0 .alias "D", 0 0, v0x1398c60_0;
+v0x1398470_0 .alias "control", 1 0, v0x13988a0_0;
+v0x13984f0_0 .alias "out", 0 0, v0x1398f50_0;
+v0x13985b0_0 .net "w1", 0 0, L_0x1399550; 1 drivers
+v0x1398680_0 .net "w2", 0 0, L_0x1399890; 1 drivers
+L_0x13995b0 .part v0x1398e80_0, 0, 1;
+L_0x1399990 .part v0x1398e80_0, 0, 1;
+L_0x1399df0 .part v0x1398e80_0, 1, 1;
+S_0x1397c10 .scope module, "m1" "mux2" 4 22, 4 2, S_0x1374040;
+ .timescale 0 0;
+L_0x1399310 .functor NOT 1, L_0x13995b0, C4<0>, C4<0>, C4<0>;
+L_0x1399370 .functor AND 1, L_0x1398fd0, L_0x1399310, C4<1>, C4<1>;
+L_0x1399460 .functor AND 1, L_0x13990d0, L_0x13995b0, C4<1>, C4<1>;
+L_0x1399550 .functor OR 1, L_0x1399370, L_0x1399460, C4<0>, C4<0>;
+v0x1397d00_0 .alias "A", 0 0, v0x13989f0_0;
+v0x1397dc0_0 .alias "B", 0 0, v0x1398ac0_0;
+v0x1397e60_0 .net "control", 0 0, L_0x13995b0; 1 drivers
+v0x1397f00_0 .net "not_control", 0 0, L_0x1399310; 1 drivers
+v0x1397f80_0 .alias "out", 0 0, v0x13985b0_0;
+v0x1398030_0 .net "wA", 0 0, L_0x1399370; 1 drivers
+v0x13980f0_0 .net "wB", 0 0, L_0x1399460; 1 drivers
+S_0x1397690 .scope module, "m2" "mux2" 4 23, 4 2, S_0x1374040;
+ .timescale 0 0;
+L_0x1399650 .functor NOT 1, L_0x1399990, C4<0>, C4<0>, C4<0>;
+L_0x13996b0 .functor AND 1, L_0x1399130, L_0x1399650, C4<1>, C4<1>;
+L_0x13997a0 .functor AND 1, L_0x13992b0, L_0x1399990, C4<1>, C4<1>;
+L_0x1399890 .functor OR 1, L_0x13996b0, L_0x13997a0, C4<0>, C4<0>;
+v0x1397780_0 .alias "A", 0 0, v0x1398b90_0;
+v0x1397840_0 .alias "B", 0 0, v0x1398c60_0;
+v0x13978e0_0 .net "control", 0 0, L_0x1399990; 1 drivers
+v0x1397980_0 .net "not_control", 0 0, L_0x1399650; 1 drivers
+v0x1397a00_0 .alias "out", 0 0, v0x1398680_0;
+v0x1397ab0_0 .net "wA", 0 0, L_0x13996b0; 1 drivers
+v0x1397b70_0 .net "wB", 0 0, L_0x13997a0; 1 drivers
+S_0x1374130 .scope module, "m3" "mux2" 4 24, 4 2, S_0x1374040;
+ .timescale 0 0;
+L_0x1399ac0 .functor NOT 1, L_0x1399df0, C4<0>, C4<0>, C4<0>;
+L_0x1399b20 .functor AND 1, L_0x1399550, L_0x1399ac0, C4<1>, C4<1>;
+L_0x1399c10 .functor AND 1, L_0x1399890, L_0x1399df0, C4<1>, C4<1>;
+L_0x1399d00 .functor OR 1, L_0x1399b20, L_0x1399c10, C4<0>, C4<0>;
+v0x1374220_0 .alias "A", 0 0, v0x13985b0_0;
+v0x1397280_0 .alias "B", 0 0, v0x1398680_0;
+v0x1397320_0 .net "control", 0 0, L_0x1399df0; 1 drivers
+v0x13973c0_0 .net "not_control", 0 0, L_0x1399ac0; 1 drivers
+v0x1397470_0 .alias "out", 0 0, v0x1398f50_0;
+v0x1397510_0 .net "wA", 0 0, L_0x1399b20; 1 drivers
+v0x13975f0_0 .net "wB", 0 0, L_0x1399c10; 1 drivers
+    .scope S_0x1362fd0;
+T_0 ;
+    %vpi_call 2 9 "$dumpfile", "logicunit.vcd";
+    %vpi_call 2 10 "$dumpvars", 1'sb0, S_0x1362fd0;
+    %set/v v0x1398d80_0, 0, 1;
+    %set/v v0x1398e00_0, 0, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 0, 1;
+    %set/v v0x1398e00_0, 0, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 0, 1;
+    %set/v v0x1398e00_0, 0, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 0, 1;
+    %set/v v0x1398e00_0, 0, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 1, 1;
+    %set/v v0x1398e00_0, 1, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 1, 1;
+    %set/v v0x1398e00_0, 1, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 1, 1;
+    %set/v v0x1398e00_0, 1, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 1, 1;
+    %set/v v0x1398e00_0, 1, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 1, 1;
+    %set/v v0x1398e00_0, 0, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 1, 1;
+    %set/v v0x1398e00_0, 0, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 1, 1;
+    %set/v v0x1398e00_0, 0, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 1, 1;
+    %set/v v0x1398e00_0, 0, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 0, 1;
+    %set/v v0x1398e00_0, 1, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 0, 1;
+    %set/v v0x1398e00_0, 1, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 0, 1;
+    %set/v v0x1398e00_0, 1, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0x1398d80_0, 0, 1;
+    %set/v v0x1398e00_0, 1, 1;
+    %ix/load 0, 0, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %ix/load 0, 1, 0;
+    %set/x0 v0x1398e80_0, 1, 1;
+    %delay 10, 0;
+    %vpi_call 2 34 "$finish";
+    %end;
+    .thread T_0;
+    .scope S_0x1362fd0;
+T_1 ;
+    %vpi_call 2 42 "$display", "A B c o";
+    %vpi_call 2 43 "$monitor", "%d %d %d %d (at time %t)", v0x1398d80_0, v0x1398e00_0, v0x1398e80_0, v0x1398f50_0, $time;
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 5;
+    "N/A";
+    "<interactive>";
+    "logicunit_tb.v";
+    "logicunit.v";
+    "mux.v";

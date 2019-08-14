@@ -1,0 +1,95 @@
+$date
+	Tue Sep 26 21:24:58 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decoder_test $end
+$var wire 3 ! alu_op [2:0] $end
+$var wire 1 " alu_src2 $end
+$var wire 1 # except $end
+$var wire 1 $ rd_src $end
+$var wire 1 % writeenable $end
+$var reg 6 & funct [5:0] $end
+$var reg 6 ' opcode [5:0] $end
+$scope module decoder $end
+$var wire 1 ( allZeroes $end
+$var wire 3 ) alu_op [2:0] $end
+$var wire 1 " alu_src2 $end
+$var wire 1 # except $end
+$var wire 6 * funct [5:0] $end
+$var wire 6 + functionCode [5:0] $end
+$var wire 1 , not0 $end
+$var wire 1 - not1 $end
+$var wire 1 . not2 $end
+$var wire 1 / not3 $end
+$var wire 1 0 not4 $end
+$var wire 1 1 not5 $end
+$var wire 6 2 opcode [5:0] $end
+$var wire 1 $ rd_src $end
+$var wire 1 3 row1 $end
+$var wire 1 4 row10 $end
+$var wire 1 5 row2 $end
+$var wire 1 6 row3 $end
+$var wire 1 7 row4 $end
+$var wire 1 8 row5 $end
+$var wire 1 9 row6 $end
+$var wire 1 : row7 $end
+$var wire 1 ; row8 $end
+$var wire 1 < row9 $end
+$var wire 1 % writeenable $end
+$scope module opOrFunct $end
+$var wire 32 = A [31:0] $end
+$var wire 32 > B [31:0] $end
+$var wire 32 ? out [31:0] $end
+$var wire 1 ( sel $end
+$var wire 32 @ temp1 [31:0] $end
+$var wire 32 A temp2 [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 A
+b0 @
+b0 ?
+b0 >
+b100000 =
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+b0 2
+11
+10
+1/
+1.
+1-
+1,
+b0 +
+b100000 *
+b0 )
+1(
+b0 '
+b100000 &
+1%
+0$
+1#
+0"
+b0 !
+$end
+#10
+b100010 &
+b100010 *
+b100010 =
+#20

@@ -1,0 +1,94 @@
+Grades for version committed on time
+	gcd_control: 0.0 / 35.0
+			*Failed test: Basic Test when Go=1 for one cycle: X = 354, Y = 118
+			*Failed test: Basic Test when Go=1 for 1000 cycles: X = 354, Y = 118
+			*Failed test: Basic Test when Go=1 for one cycle: X = 10, Y = 4
+			*Failed test: Basic Test when Go=1 for 1000 cycles: X = 10, Y = 4
+			*Failed test: Basic Test when Go=1 for one cycle: X = 13, Y = 19
+			*Failed test: Basic Test when Go=1 for 1000 cycles: X = 13, Y = 19
+			*Failed test: Basic Test when Go=1 for one cycle: X = 5, Y = 5
+			*Failed test: Basic Test when Go=1 for 1000 cycles: X = 5, Y = 5
+			*Failed test: Basic Test when Go=1 for one cycle: X = 27, Y = 63
+			*Failed test: Basic Test when Go=1 for 1000 cycles: X = 27, Y = 63
+			*Failed test: Test when X and Y keep changing with Go=1 for one cycle
+			*Failed test: Test when X and Y keep changing with Go=1 for 1000 cycles
+			*Failed test: Test series of calculations with Go=1 for one cycle
+			*Failed test: Test series of calculations with Go=1 for 1000 cycles
+			*Failed test: Test multiple resets with Go=1 for one cycle
+			*Failed test: Test multiple resets with Go=1 for 1000 cycles
+			*Failed test: Test interrupting go with go=1 for one cycle
+			*Failed test: Test interrupting go with go=1 for 1000 cycles
+		
+	register file: 0.0 / 30.0
+			*Failed test: Register Zero always 0
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=0 rd2_regnum=0 wr_data=cafebabe wr_regnum=0 enable=1 reset=0 clk=1
+			*Failed test: Register 1 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=1 rd2_regnum=1 wr_data=deadbeef wr_regnum=1 enable=1 reset=0 clk=1
+			*Failed test: Register 2 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=2 rd2_regnum=2 wr_data=1234567 wr_regnum=2 enable=1 reset=0 clk=1
+			*Failed test: Register 3 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=3 rd2_regnum=3 wr_data=88888888 wr_regnum=3 enable=1 reset=0 clk=1
+			*Failed test: Register 4 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=4 rd2_regnum=4 wr_data=ff00ff00 wr_regnum=4 enable=1 reset=0 clk=1
+			*Failed test: Register 5 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=5 rd2_regnum=5 wr_data=ff00ff wr_regnum=5 enable=1 reset=0 clk=1
+			*Failed test: Register 6 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=6 rd2_regnum=6 wr_data=fedcba98 wr_regnum=6 enable=1 reset=0 clk=1
+			*Failed test: Register 7 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=7 rd2_regnum=7 wr_data=53535353 wr_regnum=7 enable=1 reset=0 clk=1
+			*Failed test: Register 8 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=8 rd2_regnum=8 wr_data=78787878 wr_regnum=8 enable=1 reset=0 clk=1
+			*Failed test: Register 9 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=9 rd2_regnum=9 wr_data=1248 wr_regnum=9 enable=1 reset=0 clk=1
+			*Failed test: Register 10 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=a rd2_regnum=a wr_data=f7310000 wr_regnum=a enable=1 reset=0 clk=1
+			*Failed test: Register 11 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=b rd2_regnum=b wr_data=fed80000 wr_regnum=b enable=1 reset=0 clk=1
+			*Failed test: Register 12 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=c rd2_regnum=c wr_data=ffff1234 wr_regnum=c enable=1 reset=0 clk=1
+			*Failed test: Register 13 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=d rd2_regnum=d wr_data=13371337 wr_regnum=d enable=1 reset=0 clk=1
+			*Failed test: Register 14 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=e rd2_regnum=e wr_data=11111111 wr_regnum=e enable=1 reset=0 clk=1
+			*Failed test: Register 15 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=f rd2_regnum=f wr_data=d3d3d3d3 wr_regnum=f enable=1 reset=0 clk=1
+			*Failed test: Register 31 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=1f rd2_regnum=1f wr_data=31 wr_regnum=1f enable=1 reset=0 clk=1
+			*Failed test: Register 30 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=1e rd2_regnum=1e wr_data=300 wr_regnum=1e enable=1 reset=0 clk=1
+			*Failed test: Register 29 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=1d rd2_regnum=1d wr_data=2900 wr_regnum=1d enable=1 reset=0 clk=1
+			*Failed test: Register 28 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=1c rd2_regnum=1c wr_data=28000 wr_regnum=1c enable=1 reset=0 clk=1
+			*Failed test: Register 27 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=1b rd2_regnum=1b wr_data=270000 wr_regnum=1b enable=1 reset=0 clk=1
+			*Failed test: Register 26 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=1a rd2_regnum=1a wr_data=2600000 wr_regnum=1a enable=1 reset=0 clk=1
+			*Failed test: Register 25 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=19 rd2_regnum=19 wr_data=25000000 wr_regnum=19 enable=1 reset=0 clk=1
+			*Failed test: Register 24 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=18 rd2_regnum=18 wr_data=40000000 wr_regnum=18 enable=1 reset=0 clk=1
+			*Failed test: Register 23 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=17 rd2_regnum=17 wr_data=23 wr_regnum=17 enable=1 reset=0 clk=1
+			*Failed test: Register 22 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=16 rd2_regnum=16 wr_data=220 wr_regnum=16 enable=1 reset=0 clk=1
+			*Failed test: Register 21 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=15 rd2_regnum=15 wr_data=2100 wr_regnum=15 enable=1 reset=0 clk=1
+			*Failed test: Register 20 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=14 rd2_regnum=14 wr_data=20000 wr_regnum=14 enable=1 reset=0 clk=1
+			*Failed test: Register 19 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=13 rd2_regnum=13 wr_data=190000 wr_regnum=13 enable=1 reset=0 clk=1
+			*Failed test: Register 18 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=12 rd2_regnum=12 wr_data=1800000 wr_regnum=12 enable=1 reset=0 clk=1
+			*Failed test: Register 17 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=11 rd2_regnum=11 wr_data=17000000 wr_regnum=11 enable=1 reset=0 clk=1
+			*Failed test: Register 16 read and write correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=10 rd2_regnum=10 wr_data=60000000 wr_regnum=10 enable=1 reset=0 clk=1
+			*Failed test: Enable Works Correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=11 rd2_regnum=11 wr_data=28000 wr_regnum=11 enable=0 reset=0 clk=1
+			*Failed test: Reset Works Correctly
+				*Your output: rd1_data=zzzzzzzz rd2_data=zzzzzzzz rd1_regnum=6 rd2_regnum=17 wr_data=28000 wr_regnum=11 enable=0 reset=1 clk=1
+		
+Total: 0.0 / 65.0
+
+Final Score: 0.0 / 65.0

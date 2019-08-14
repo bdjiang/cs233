@@ -1,0 +1,268 @@
+$date
+	Sat Sep 16 18:20:57 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module logicunit_test $end
+$var wire 1 ! out $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 2 $ control [1:0] $end
+$scope module lu $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var wire 2 ' control [1:0] $end
+$var wire 1 ! out $end
+$var wire 1 ( w1 $end
+$var wire 1 ) w2 $end
+$var wire 1 * w3 $end
+$var wire 1 + w4 $end
+$scope module m1 $end
+$var wire 1 ( A $end
+$var wire 1 ) B $end
+$var wire 1 * C $end
+$var wire 1 + D $end
+$var wire 2 , control [1:0] $end
+$var wire 1 ! out $end
+$var wire 1 - w1 $end
+$var wire 1 . w2 $end
+$scope module m1 $end
+$var wire 1 ( A $end
+$var wire 1 ) B $end
+$var wire 1 / control $end
+$var wire 1 0 not_control $end
+$var wire 1 - out $end
+$var wire 1 1 wA $end
+$var wire 1 2 wB $end
+$upscope $end
+$scope module m2 $end
+$var wire 1 * A $end
+$var wire 1 + B $end
+$var wire 1 3 control $end
+$var wire 1 4 not_control $end
+$var wire 1 . out $end
+$var wire 1 5 wA $end
+$var wire 1 6 wB $end
+$upscope $end
+$scope module m3 $end
+$var wire 1 - A $end
+$var wire 1 . B $end
+$var wire 1 7 control $end
+$var wire 1 8 not_control $end
+$var wire 1 ! out $end
+$var wire 1 9 wA $end
+$var wire 1 : wB $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0:
+09
+18
+07
+06
+15
+14
+03
+02
+01
+10
+0/
+1.
+0-
+b0 ,
+0+
+1*
+0)
+0(
+b0 '
+0&
+0%
+b0 $
+0#
+0"
+0!
+$end
+#10
+1!
+08
+1:
+17
+b10 '
+b10 ,
+b10 $
+#20
+0.
+0!
+05
+18
+0:
+00
+04
+07
+1/
+13
+b1 $
+b1 '
+b1 ,
+#30
+08
+17
+b11 '
+b11 ,
+b11 $
+#40
+1!
+19
+1-
+11
+18
+10
+14
+07
+0/
+03
+1(
+1)
+0*
+b0 $
+b0 '
+b0 ,
+1#
+1&
+1"
+1%
+#50
+0!
+09
+08
+17
+b10 '
+b10 ,
+b10 $
+#60
+1!
+19
+01
+18
+00
+12
+04
+07
+1/
+13
+b1 $
+b1 '
+b1 ,
+#70
+0!
+09
+08
+17
+b11 '
+b11 ,
+b11 $
+#80
+0-
+18
+10
+02
+14
+07
+0/
+03
+0(
+1+
+b0 $
+b0 '
+b0 ,
+0#
+0&
+#90
+08
+17
+b10 '
+b10 ,
+b10 $
+#100
+1!
+19
+1-
+1.
+18
+00
+12
+04
+16
+07
+1/
+13
+b1 $
+b1 '
+b1 ,
+#110
+09
+08
+1:
+17
+b11 '
+b11 ,
+b11 $
+#120
+0!
+0-
+0.
+18
+0:
+10
+02
+14
+06
+07
+0/
+03
+b0 $
+b0 '
+b0 ,
+1#
+1&
+0"
+0%
+#130
+08
+17
+b10 '
+b10 ,
+b10 $
+#140
+1!
+19
+1-
+1.
+18
+00
+12
+04
+16
+07
+1/
+13
+b1 $
+b1 '
+b1 ,
+#150
+09
+08
+1:
+17
+b11 '
+b11 ,
+b11 $
+#160
