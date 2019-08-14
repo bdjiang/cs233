@@ -1,0 +1,119 @@
+Grades for version committed on time
+	no_deps_or_beqs: 0.0 / 20
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+		
+	beqs_but_no_deps: 1.0 / 20
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Passed test: beqs_but_no_deps
+		
+	deps_but_no_beqs: 0.0 / 20
+			*Failed test: deps_but_no_beqs
+			*Failed test: deps_but_no_beqs
+			*Failed test: deps_but_no_beqs
+			*Failed test: deps_but_no_beqs
+			*Failed test: deps_but_no_beqs
+			*Failed test: deps_but_no_beqs
+			*Failed test: deps_but_no_beqs
+		
+	full pipeline test: 2.0 / 20
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Passed test: full_pipeline_test
+			*Passed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+		
+Total: 3.0 / 80
+
+Grades for version committed as of 12 hours after deadline
+	no_deps_or_beqs: 7.0 / 20
+			*Passed test: no_deps_or_beqs
+			*Passed test: no_deps_or_beqs
+			*Passed test: no_deps_or_beqs
+			*Passed test: no_deps_or_beqs
+			*Passed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+			*Failed test: no_deps_or_beqs
+		
+	beqs_but_no_deps: 5.0 / 20
+			*Passed test: beqs_but_no_deps
+			*Passed test: beqs_but_no_deps
+			*Passed test: beqs_but_no_deps
+			*Passed test: beqs_but_no_deps
+			*Passed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+			*Failed test: beqs_but_no_deps
+		
+	deps_but_no_beqs: 8.0 / 20
+			*Passed test: deps_but_no_beqs
+			*Passed test: deps_but_no_beqs
+			*Passed test: deps_but_no_beqs
+			*Passed test: deps_but_no_beqs
+			*Passed test: deps_but_no_beqs
+			*Failed test: deps_but_no_beqs
+			*Failed test: deps_but_no_beqs
+			*Failed test: deps_but_no_beqs
+			*Failed test: deps_but_no_beqs
+			*Failed test: deps_but_no_beqs
+		
+	full pipeline test: 8.0 / 20
+			*Passed test: full_pipeline_test
+			*Passed test: full_pipeline_test
+			*Passed test: full_pipeline_test
+			*Passed test: full_pipeline_test
+			*Passed test: full_pipeline_test
+			*Passed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Failed test: full_pipeline_test
+			*Passed test: full_pipeline_test
+			*Passed test: full_pipeline_test
+			*Passed test: full_pipeline_test
+		
+	Late penalty: 10.0% (waivers are applied at the end of the semester)
+Total: 25.2 / 80
+
+Final Score: 25.2 / 80

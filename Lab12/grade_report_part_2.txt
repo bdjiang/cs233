@@ -1,0 +1,27 @@
+Grades for version committed on time
+	unit_tests: 16 / 16
+			*Passed test: extract
+			*Passed test: get address
+			*Passed test: num bits
+		
+	four_caches: 8.0 / 64
+			*Passed test:        1       1       1       0       0	(write-through, write-around)
+			*Failed test:    65536    1024       8       0       0	(write-through, write-around)
+			*Failed test:   131072     512       2       0       0	(write-through, write-around)
+			*Failed test:     2048      32       4       0       0	(write-through, write-around)
+			*Passed test:        1       1       1       0       1	(write-through, write-allocate)
+			*Failed test:    65536    1024       8       0       1	(write-through, write-allocate)
+			*Failed test:   131072     512       2       0       1	(write-through, write-allocate)
+			*Failed test:     2048      32       4       0       1	(write-through, write-allocate)
+			*Failed test:        1       1       1       1       1	(write-back, write-allocate)
+			*Failed test:    65536    1024       8       1       1	(write-back, write-allocate)
+			*Failed test:   131072     512       2       1       1	(write-back, write-allocate)
+			*Failed test:     2048      32       4       1       1	(write-back, write-allocate)
+			*Failed test:        1       1       1       1       0	(write-back, write-around)
+			*Failed test:    65536    1024       8       1       0	(write-back, write-around)
+			*Failed test:   131072     512       2       1       0	(write-back, write-around)
+			*Failed test:     2048      32       4       1       0	(write-back, write-around)
+		
+Total: 24.0 / 80
+
+Final Score: 24.0 / 80
