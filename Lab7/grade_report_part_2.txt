@@ -1,0 +1,88 @@
+Grades for version committed on time
+	accumulate: 10.0 / 40
+			*Failed test: Base Case 1 
+				*Error running test: 
+					Exception occurred at PC=0x0040030c
+					  Bad address in data/stack read: 0x00000000
+			*Failed test: Base Case 1  (evil)
+				*Error running test: 
+					Exception occurred at PC=0x0040030c
+					  Bad address in data/stack read: 0x00000000
+			*Failed test: Base Case 2 
+				*Your output: 0 
+			*Failed test: Base Case 2  (evil)
+				*Your output: 0 
+			*Failed test: Base Case 3
+				*Error running test: 
+					Exception occurred at PC=0x0040030c
+					  Bad address in data/stack read: 0x00000000
+			*Failed test: Base Case 3 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x0040030c
+					  Bad address in data/stack read: 0x00000000
+			*Passed test: Given 1
+			*Passed test: Given 1 (evil)
+			*Failed test: Given 2
+				*Your output: 25 
+			*Failed test: Given 2 (evil)
+				*Your output: 25 
+			*Failed test: TooShort
+				*Your output: 11 
+			*Failed test: TooShort (evil)
+				*Your output: 11 
+			*Failed test: Empty
+				*Your output: -1 
+			*Failed test: Empty (evil)
+				*Your output: -1 
+			*Passed test: Long
+			*Passed test: Long (evil)
+		
+	max_n_unique_substring: 0.0 / 30
+			*Failed test: BaseCase n
+				*Timed out
+			*Failed test: BaseCase n (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400430
+					  Bad address in data/stack read: 0xdeadc0de
+			*Failed test: test_null
+				*Timed out
+			*Failed test: test_null (evil)
+				*Timed out
+			*Failed test: empty
+				*Timed out
+			*Failed test: empty (evil)
+				*Timed out
+			*Failed test: given1
+				*Timed out
+			*Failed test: given1 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400430
+					  Bad address in data/stack read: 0xdeadc0de
+			*Failed test: given2
+				*Timed out
+			*Failed test: given2 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400430
+					  Bad address in data/stack read: 0xdeadc0de
+			*Failed test: edge_case_n
+				*Timed out
+			*Failed test: edge_case_n (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400430
+					  Bad address in data/stack read: 0xdeadc0de
+			*Failed test: broken
+				*Timed out
+			*Failed test: broken (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400430
+					  Bad address in data/stack read: 0xdeadc0de
+			*Failed test: whole
+				*Timed out
+			*Failed test: whole (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400430
+					  Bad address in data/stack read: 0xdeadc0de
+		
+Total: 10.0 / 70
+
+Final Score: 10.0 / 70

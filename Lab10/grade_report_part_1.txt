@@ -1,0 +1,10 @@
+Grades for version committed on time
+	part 1: 20.0 / 30.0
+			*Passed test: mapseed 42 (default mapseed)
+			*Partially passed test: mapseed 99
+					Your score: 0.0 Threshold: 71.0
+			*Passed test: mapseed 999
+		
+Total: 20.0 / 30.0
+
+Final Score: 20.0 / 30.0

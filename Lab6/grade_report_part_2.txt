@@ -1,0 +1,58 @@
+Grades for version committed on time
+	full machine: 16.0 / 80
+			*Failed test: add
+				*Your output: 0x00005020
+			*Failed test: sub
+				*Your output: 0x00005822
+			*Failed test: and
+				*Your output: 0x00006024
+			*Failed test: or
+				*Your output: 0x00006825
+			*Failed test: nor
+				*Your output: 0x00007027
+			*Failed test: xor
+				*Your output: 0x00007826
+			*Failed test: addi
+				*Your output: 0x0000ffff
+			*Failed test: andi
+				*Your output: 0x0000000f
+			*Failed test: ori
+				*Your output: 0x000000f0
+			*Failed test: xori
+				*Your output: 0x00007fff
+			*Failed test: lui
+				*Your output: 0x00000000
+			*Failed test: slt less than
+				*Your output: 0x0000a82a
+			*Failed test: slt equal
+				*Your output: 0x0000b02a
+			*Failed test: slt greater than
+				*Your output: 0x0000b82a
+			*Failed test: lbu
+				*Your output: 0x00000004
+			*Failed test: lbu
+				*Your output: 0x00000005
+			*Failed test: lbu
+				*Your output: 0x00000006
+			*Failed test: lbu
+				*Your output: 0x00000007
+			*Failed test: lw
+				*Your output: 0x00000004
+			*Failed test: sb
+				*Your output: 0x00000008
+			*Failed test: slt extra credit greater than
+				*Your output: 0x0000402a
+			*Failed test: slt extra credit less than
+				*Your output: 0x0000482a
+			*Passed test: j
+			*Passed test: jr
+			*Passed test: beq taken
+			*Passed test: beq not taken
+			*Passed test: bne taken
+			*Passed test: bne not taken
+			*Failed test: addm
+				*Your output: 0x00000000
+		
+Total: 16.0 / 80
+
+Final Score: 16.0 / 80

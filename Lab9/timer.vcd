@@ -1,0 +1,361 @@
+$date
+	Mon Oct 23 13:44:00 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module timer_test $end
+$var wire 1 ! TimerAddress $end
+$var wire 1 " TimerInterrupt $end
+$var wire 32 # cycle [31:0] $end
+$var reg 1 $ MemRead $end
+$var reg 1 % MemWrite $end
+$var reg 32 & address [31:0] $end
+$var reg 1 ' clock $end
+$var reg 32 ( data [31:0] $end
+$var reg 1 ) reset $end
+$scope module t $end
+$var wire 1 * Acknowledge $end
+$var wire 1 + MemRead $end
+$var wire 1 , MemWrite $end
+$var wire 1 ! TimerAddress $end
+$var wire 1 " TimerInterrupt $end
+$var wire 1 - acknowledgeWire $end
+$var wire 3 . add [2:0] $end
+$var wire 32 / address [31:0] $end
+$var wire 32 0 aluOut [31:0] $end
+$var wire 1 1 clock $end
+$var wire 32 2 cycle [31:0] $end
+$var wire 32 3 cycleCounterOut [31:0] $end
+$var wire 1 4 cycles $end
+$var wire 32 5 data [31:0] $end
+$var wire 32 6 equalCheck1 [31:0] $end
+$var wire 32 7 equalCheck2 [31:0] $end
+$var wire 32 8 interruptCycleOut [31:0] $end
+$var wire 1 9 interruptLineEnable $end
+$var wire 1 : interruptLineReset $end
+$var wire 1 ; one $end
+$var wire 1 < reset $end
+$var wire 1 = timerRead $end
+$var wire 1 > timerWrite $end
+$scope module cycleCounter $end
+$var wire 1 1 clk $end
+$var wire 1 ? d $end
+$var wire 1 ; enable $end
+$var wire 1 < reset $end
+$var reg 1 @ q $end
+$upscope $end
+$scope module interruptCycle $end
+$var wire 1 1 clk $end
+$var wire 1 A d $end
+$var wire 1 > enable $end
+$var wire 1 < reset $end
+$var reg 1 B q $end
+$upscope $end
+$scope module interruptLine $end
+$var wire 1 1 clk $end
+$var wire 1 ; d $end
+$var wire 1 9 enable $end
+$var wire 1 : reset $end
+$var reg 1 C q $end
+$upscope $end
+$scope module cycleCounterALU $end
+$var wire 3 D control [2:0] $end
+$var wire 32 E inA [31:0] $end
+$var wire 32 F inB [31:0] $end
+$var wire 1 G negative $end
+$var wire 32 H out [31:0] $end
+$var wire 1 I zero $end
+$upscope $end
+$scope module cycleOut $end
+$var wire 1 = control $end
+$var wire 32 J d [31:0] $end
+$var wire 32 K o [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bz K
+b0x J
+xI
+bx H
+xG
+b1 F
+b0x E
+b0 D
+xC
+xB
+0A
+x@
+x?
+0>
+0=
+1<
+1;
+1:
+x9
+b0x 8
+b11111111111111110000000001101100 7
+b11111111111111110000000000011100 6
+b0 5
+04
+b0x 3
+bz 2
+01
+bx 0
+b0 /
+b0 .
+0-
+0,
+0+
+0*
+1)
+b0 (
+0'
+b0 &
+0%
+0$
+bz #
+x"
+0!
+$end
+#5
+0G
+1?
+0I
+b1 0
+b1 H
+0@
+19
+b0 3
+b0 E
+b0 J
+0B
+b0 8
+0C
+0"
+1'
+11
+#10
+b0 #
+b0 2
+b0 K
+1!
+1=
+0:
+0'
+01
+1$
+1+
+b11111111111111110000000000011100 &
+b11111111111111110000000000011100 /
+14
+0)
+0<
+#15
+0?
+b10 0
+b10 H
+b1 #
+b1 2
+b1 K
+1C
+1"
+1@
+09
+b1 3
+b1 E
+b1 J
+1'
+11
+#20
+0'
+01
+#25
+1?
+b1 0
+b1 H
+b0 #
+b0 2
+b0 K
+0@
+19
+b0 3
+b0 E
+b0 J
+1'
+11
+#30
+0'
+01
+#35
+0?
+b10 0
+b10 H
+b1 #
+b1 2
+b1 K
+1@
+09
+b1 3
+b1 E
+b1 J
+1'
+11
+#40
+0'
+01
+#45
+1?
+b1 0
+b1 H
+b0 #
+b0 2
+b0 K
+0@
+19
+b0 3
+b0 E
+b0 J
+1'
+11
+#50
+bz #
+bz 2
+bz K
+1>
+0=
+0'
+01
+1%
+1,
+0$
+0+
+b110 (
+b110 5
+#55
+0?
+b10 0
+b10 H
+1@
+09
+b1 3
+b1 E
+b1 J
+1'
+11
+#60
+b1 #
+b1 2
+b1 K
+0>
+1=
+0'
+01
+0%
+0,
+1$
+1+
+#65
+1?
+b1 0
+b1 H
+b0 #
+b0 2
+b0 K
+0@
+19
+b0 3
+b0 E
+b0 J
+1'
+11
+#70
+0'
+01
+#75
+0?
+b10 0
+b10 H
+b1 #
+b1 2
+b1 K
+1@
+09
+b1 3
+b1 E
+b1 J
+1'
+11
+#80
+0'
+01
+#85
+1?
+b1 0
+b1 H
+b0 #
+b0 2
+b0 K
+0@
+19
+b0 3
+b0 E
+b0 J
+1'
+11
+#90
+0'
+01
+#95
+0?
+b10 0
+b10 H
+b1 #
+b1 2
+b1 K
+1@
+09
+b1 3
+b1 E
+b1 J
+1'
+11
+#100
+bz #
+bz 2
+bz K
+1:
+0=
+1*
+0'
+01
+1%
+1,
+0$
+0+
+b11111111111111110000000001101100 &
+b11111111111111110000000001101100 /
+04
+1-
+#105
+1?
+b1 0
+b1 H
+0@
+19
+b0 3
+b0 E
+b0 J
+0C
+0"
+1'
+11
+#110
+0'
+01

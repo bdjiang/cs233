@@ -1,0 +1,56 @@
+Grades for version committed on time
+	timer: 8.28 / 30
+			*Passed test: initial reset
+			*Passed test: initial reset
+			*Passed test: reading cycle
+			*Failed test: reading cycle
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 1
+			*Failed test: reading cycle
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 0
+			*Failed test: reading cycle
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 1
+			*Failed test: reading cycle
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 0
+			*Failed test: requesting interrupt
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = z
+			*Failed test: reading cycle
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 1
+			*Failed test: reading cycle
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 0
+			*Failed test: raising interrupt
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 1
+			*Failed test: raising interrupt
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 0
+			*Failed test: raising interrupt
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 1
+			*Passed test: achnowledging interrupt
+			*Passed test: achnowledged interrupt
+			*Failed test: requesting interrupt
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 0
+			*Failed test: overwriting previous request
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 1
+			*Failed test: raising interrupt
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 0
+			*Passed test: acknowledging interrupt
+			*Passed test: acknowledged interrupt
+			*Failed test: reading cycle
+				*Your output: TimerInterrupt = 0 TimerAddress = 1 cycle = 1
+			*Failed test: reading cycle
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 0
+			*Failed test: reading from non-time address
+				*Your output: TimerInterrupt = 1 TimerAddress = 0 cycle = z
+			*Failed test: request a time interrupt
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = z
+			*Failed test: resetting again ...
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 1
+			*Passed test: reset
+			*Failed test: reset
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 1
+			*Failed test: reset
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 0
+			*Failed test: reset
+				*Your output: TimerInterrupt = 1 TimerAddress = 1 cycle = 1
+		
+Total: 8.28 / 30
+
+Final Score: 8.28 / 30

@@ -1,0 +1,112 @@
+Grades for version committed on time
+	has_cycle: 0.0 / 40
+		has_cycle.s: warning: Found 2 instances of jr $ra. Using multiple return points is error prone. Consider merging return points into a single label.
+			*Failed test: base case
+				*Error running test: 
+					Exception occurred at PC=0x00400424
+					  Unaligned address in inst/data fetch: 0x4afeb625
+			*Failed test: base case (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400424
+					  Unaligned address in inst/data fetch: 0x4afeb625
+			*Failed test: single
+				*Error running test: 
+					Exception occurred at PC=0x004004ac
+					  Arithmetic overflow
+			*Failed test: single (evil)
+				*Error running test: 
+					Exception occurred at PC=0x004004ac
+					  Arithmetic overflow
+			*Failed test: given1
+				*Error running test: 
+					Exception occurred at PC=0x004004ac
+					  Arithmetic overflow
+			*Failed test: given1 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x004004ac
+					  Arithmetic overflow
+			*Failed test: given2
+				*Error running test: 
+					Exception occurred at PC=0x004004ac
+					  Arithmetic overflow
+			*Failed test: given2 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x004004ac
+					  Arithmetic overflow
+			*Failed test: combined
+				*Error running test: 
+					Exception occurred at PC=0x004004ac
+					  Arithmetic overflow
+			*Failed test: combined (evil)
+				*Error running test: 
+					Exception occurred at PC=0x004004ac
+					  Arithmetic overflow
+		
+	max_depth: 0.0 / 30
+		max_depth.s: warning: Found 2 instances of jr $ra. Using multiple return points is error prone. Consider merging return points into a single label.
+			*Failed test: base case
+				*Error running test: 
+					Exception occurred at PC=0x7ffffef4
+					  Bad address in text read: 0x7ffffef4
+			*Failed test: base case (evil)
+				*Error running test: 
+					Exception occurred at PC=0x7ffffef4
+					  Bad address in text read: 0x7ffffef4
+			*Failed test: given_1
+				*Error running test: 
+					Exception occurred at PC=0x00400438
+					  Unaligned address in inst/data fetch: 0x00000005
+			*Failed test: given_1 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400470
+					  Unaligned address in inst/data fetch: 0xdeadc0e2
+			*Failed test: given_2
+				*Error running test: 
+					Exception occurred at PC=0x00400438
+					  Unaligned address in inst/data fetch: 0x00000007
+			*Failed test: given_2 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400438
+					  Unaligned address in inst/data fetch: 0x00000007
+			*Failed test: given_3
+				*Error running test: 
+					Exception occurred at PC=0x00400438
+					  Unaligned address in inst/data fetch: 0x00000005
+			*Failed test: given_3 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400470
+					  Unaligned address in inst/data fetch: 0xdeadc0e2
+			*Failed test: combined
+				*Error running test: 
+					Exception occurred at PC=0x00400438
+					  Unaligned address in inst/data fetch: 0x00000007
+			*Failed test: combined (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400438
+					  Unaligned address in inst/data fetch: 0x00000007
+		
+	shift_many: 0.0 / 20
+			*Failed test: base case
+				*Your output: 0x0 0 0 0 
+			*Failed test: base case (evil)
+				*Your output: 0x0 0 0 0 
+			*Failed test: given_1
+				*Your output: 0x0 0x0 0x0 0x0 
+			*Failed test: given_1 (evil)
+				*Your output: 0x0 0x0 0x0 0x0 
+			*Failed test: given_2
+				*Your output: 0x0 0x0 0x0 0x0 
+			*Failed test: given_2 (evil)
+				*Your output: 0x0 0x0 0x0 0x0 
+			*Failed test: given_3
+				*Your output: 0x0 0 0x0 0x0 
+			*Failed test: given_3 (evil)
+				*Your output: 0x0 0 0x0 0x0 
+			*Failed test: large
+				*Your output: 0x0 0x0 0x0 0x0 
+			*Failed test: large (evil)
+				*Your output: 0x0 0x0 0x0 0x0 
+		
+Total: 0.0 / 70
+
+Final Score: 0.0 / 70

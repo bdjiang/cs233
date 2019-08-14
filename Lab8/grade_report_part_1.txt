@@ -1,0 +1,31 @@
+Grades for version committed on time
+	decrypt: 15.0 / 30
+			*Passed test: base case
+			*Failed test: base case (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400680
+					  Bad address in data/stack read: 0xdeadc0de
+			*Passed test: Test_Given1
+			*Failed test: Test_Given1 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400680
+					  Bad address in data/stack read: 0xdeadc0de
+			*Passed test: Test_Given2
+			*Failed test: Test_Given2 (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400680
+					  Bad address in data/stack read: 0xdeadc0de
+			*Passed test: one_round
+			*Failed test: one_round (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400680
+					  Bad address in data/stack read: 0xdeadc0de
+			*Passed test: test_unsigned
+			*Failed test: test_unsigned (evil)
+				*Error running test: 
+					Exception occurred at PC=0x00400680
+					  Bad address in data/stack read: 0xdeadc0de
+		
+Total: 15.0 / 30
+
+Final Score: 15.0 / 30

@@ -1,0 +1,92 @@
+Grades for version committed on time
+	coprocessor 0: 0.0 / 35
+			*Failed test: reset
+				*Your output: rd_data = 0xxxxxxxxx EPC = 0x00000000 TakenInterrupt = 0
+			*Failed test: write status register
+				*Your output: no output
+			*Failed test: take timer interrupt
+				*Your output: rd_data = 0x00008000 EPC = 0x00000000 TakenInterrupt = 1
+			*Failed test: stop taking after cycle
+				*Your output: no output
+			*Failed test: read EPC
+				*Your output: rd_data = 0xxxxxxxxx EPC = 0x00000000 TakenInterrupt = 1
+			*Failed test: read cause register
+				*Your output: rd_data = 0x00000000 EPC = 0x00000000 TakenInterrupt = 1
+			*Failed test: eret clears exception level
+				*Your output: no output
+			*Failed test: eret clears cause register
+				*Your output: no output
+			*Failed test: write EPC
+				*Your output: no output
+			*Failed test: read EPC
+				*Your output: no output
+			*Failed test: disable interrupts
+				*Your output: no output
+			*Failed test: disable interrupts
+				*Your output: no output
+			*Failed test: enable interrupts
+				*Your output: no output
+			*Failed test: enable timer interrupts
+				*Your output: no output
+			*Failed test: reset
+				*Your output: no output
+		
+	interrupts datapath: 0.0 / 35
+			*Failed test: timer read
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10018001
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x20020000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: control flow
+				*Your output: 0x10010000
+			*Failed test: interrupt handling
+				*Your output: 0x10010000
+			*Failed test: interrupt handling
+				*Your output: 0x10010000
+		
+Total: 0.0 / 70
+
+Final Score: 0.0 / 70
